@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 # Configuration
 UPLOAD_FOLDER = 'static/uploads'
-DATASET_IMG_FOLDER = 'sample_dataset/images'
+DATASET_IMG_FOLDER = 'sample_dataset/images_subset'
 EMBEDDINGS_FILE = 'embeddings.pkl'
 METADATA_FILE = 'sample_dataset/metadata.csv'
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
