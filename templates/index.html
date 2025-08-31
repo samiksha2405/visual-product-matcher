@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Visual Product Matcher</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+  <div class="main-bg">
+    <div class="glass-container">
+      <h2 class="brand-heading-flex"><span class="brand-emoji">✨</span> Visual Product Matcher <span class="brand-emoji">✨</span></h2>
+      <p>Upload an image or paste a link to find visually similar products instantly.</p>
+      
+      {% if error %}
+        <div class="alert alert-danger">{{ error }}</div>
+      {% endif %}
+      
+      <form method="POST" enctype="multipart/form-data">
+        <label>File Upload:</label>
+        <input type="file" name="file" class="form-control mb-3" />
+        <label>Image URL:</label>
+        <input type="text" name="url" class="form-control mb-3" placeholder="Image URL" />
+        <label>Minimum Similarity (0-100):</label>
+        <input type="number" name="filter_score" min="0" max="100" value="75" class="form-control mb-3" />
+        <button class="btn btn-custom" type="submit">Find Matches</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
