@@ -121,6 +121,6 @@ def index():
 def serve_product_image(filename):
     return send_from_directory(DATASET_IMG_FOLDER, filename)
 
-if __name__ == '__main__':
-    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+if __name__ == "__main__":
     app.run(debug=True)
+

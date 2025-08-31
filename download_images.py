@@ -2,8 +2,9 @@ import pandas as pd
 import os
 import urllib.request
 
-csv_path = "sample_dataset/images_subset.csv"  # <-- your csv with links
+csv_path = "sample_dataset/images_subset.csv"  #  csv with links
 output_folder = "sample_dataset/images"
+
 os.makedirs(output_folder, exist_ok=True)
 
 df = pd.read_csv(csv_path)

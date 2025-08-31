@@ -10,6 +10,7 @@ import pandas as pd
 IMG_FOLDER = "sample_dataset/images"
 METADATA_FILE = "sample_dataset/metadata.csv"
 
+
 model = MobileNetV2(weights="imagenet", include_top=False, pooling="avg")
 
 embeddings = {}
