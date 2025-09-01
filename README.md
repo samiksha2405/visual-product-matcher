@@ -1,4 +1,4 @@
-# Visual Product Matcher
+z# Visual Product Matcher
 
 A web application that allows users to find visually similar products by uploading an image or providing an image URL.
 
@@ -18,20 +18,20 @@ A web application that allows users to find visually similar products by uploadi
 
 ## Setup and Installation
 
-  git clone <repo_url>         
+1  git clone <repo_url>         
  Download the project repository to local machine
 
-cd <repo_folder>             
-# Change directory to the project folder
+2. cd <repo_folder>             
+ Change directory to the project folder
 
-python -m venv venv          
-# Create a virtual environment named 'venv' for dependency isolation
+3 python -m venv venv          
+ Create a virtual environment named 'venv' for dependency isolation
 
-source venv/bin/activate     
-# Activate the virtual environment (on Windows: venv\Scripts\activate)
+4 source venv/bin/activate     
+ Activate the virtual environment (on Windows: venv\Scripts\activate)
 
-pip install -r requirements.txt  
-# Install all required Python packages listed in requirements.txt
+5 pip install -r requirements.txt  
+ Install all required Python packages listed in requirements.txt
 
-python app.py                
-# Run the Flask web application locally
+6 python app.py                
+ Run the Flask web application locally
