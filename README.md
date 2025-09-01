@@ -1,4 +1,4 @@
-z# Visual Product Matcher
+# Visual Product Matcher
 
 A web application that allows users to find visually similar products by uploading an image or providing an image URL.
 
@@ -21,7 +21,7 @@ A web application that allows users to find visually similar products by uploadi
 1  git clone <repo_url>         
  Download the project repository to local machine
 
-2. cd <repo_folder>             
+2  cd <repo_folder>             
  Change directory to the project folder
 
 3 python -m venv venv          
