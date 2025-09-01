@@ -19,7 +19,7 @@ A web application that allows users to find visually similar products by uploadi
 ## Setup and Installation
 
   git clone <repo_url>         
-# Download the project repository to local machine
+ Download the project repository to local machine
 
 cd <repo_folder>             
 # Change directory to the project folder
