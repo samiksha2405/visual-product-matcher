@@ -2,6 +2,9 @@
 
 A web application that allows users to find visually similar products by uploading an image or providing an image URL.
 
+# Working Project demo video URL
+[https://drive.google.com/file/d/16BfM3rz9_hi2LI2kYfFI6mB8CHKvcT6b/view?usp=drivesdk]
+
 ## Features
 - Upload image via file or URL
 - MobileNetV2-based feature extraction
