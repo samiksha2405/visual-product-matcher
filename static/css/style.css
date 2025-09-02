@@ -27,20 +27,20 @@ body, html {
   border: 1.5px solid rgba(30,60,90,0.12);
   border-radius: 28px;
 
-  /* FINAL SCROLLBAR FIXES */
+  /*SCROLLBAR FIXES */
   overflow: hidden !important;
   max-height: 100%;
-  scrollbar-width: none;               /* Firefox */
+  scrollbar-width: none;               /
 }
 .glass-container::-webkit-scrollbar {
-  display: none; /* Chrome/Safari/Opera */
+  display: none; 
 }
 
-/* Optional: for debugging, show bounds (remove after testing) */
-/* .glass-container { outline: 2px solid red; } */
+
+
 
 .brand-heading-flex {
-  display: inline-flex;   /* CHANGED from flex */
+  display: inline-flex;   
   align-items: center;
   justify-content: center;
   gap: 0.5em;
@@ -51,7 +51,7 @@ body, html {
   color: #344575;
   letter-spacing: 0.025em;
   white-space: normal;
-  /* width: 100%;   REMOVED to prevent flex overflow */
+  
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -64,7 +64,7 @@ body, html {
   letter-spacing: inherit;
 }
 
-/* Button & other styles as before */
+
 .btn-custom {
   background: linear-gradient(89deg,#6978bf 50%,#b297f6 100%);
   border: none;
